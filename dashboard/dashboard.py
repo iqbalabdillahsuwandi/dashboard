@@ -17,7 +17,7 @@ def load_data(file_type):
 
 #sidebar
 with st.sidebar:
-    st.image("https://github.com/iqbalabdillahsuwandi/dashboard/blob/main/bike.png?raw=true")
+    st.image("https://github.com/iqbalabdillahsuwandi/submission/blob/0608ed3048751682b8a0a787a015aef584ca1f10/dashboard/bike.png")
     st.title("Bike Sharing")
     st.sidebar.header("Menu")
     data_set = st.sidebar.button('Information Data Set')

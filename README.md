@@ -18,14 +18,14 @@ Sebelum menjalankan dashboard, pastikan Anda telah menginstal perangkat lunak be
 
 Anda dapat menginstal semua pustaka yang diperlukan dengan menjalankan perintah berikut:
 bash
-pip install numpy streamlit pandas matplotlib seaborn babel
+`pip install numpy streamlit pandas matplotlib seaborn babel`
 
 =========================================
 Menjalankan dashbord
 =========================================
 Menyalin repositori
-  `git clone https://github.com/username/proyek-analisis-data-sepeda.git`
-  `cd proyek-analisis-data-sepeda`
+  `git clone https://github.com/iqbalabdillahsuwandi/submission.git`
+  `cd submission`
 
 Menjalankan streamlit
   Setelah mengkloning repositori, buka terminal (atau command prompt) dan navigasikan ke direktori tempat repositori dikloning. Jalankan perintah berikut untuk memulai aplikasi Streamlit:

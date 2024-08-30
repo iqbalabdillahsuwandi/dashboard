@@ -8,9 +8,9 @@ sns.set(style='dark')
 
 def load_data(file_type):
     if file_type == 'day':
-        data = pd.read_csv('day.csv')
+        data = pd.read_csv('https://raw.githubusercontent.com/iqbalabdillahsuwandi/submission/main/dashboard/day.csv')
     elif file_type == 'hour':
-        data = pd.read_csv('hour.csv')
+        data = pd.read_csv('https://raw.githubusercontent.com/iqbalabdillahsuwandi/submission/main/dashboard/hour.csv')
     else:
         data = pd.DataFrame()
     return data
